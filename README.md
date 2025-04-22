@@ -1,8 +1,8 @@
-#Generador de Extractos Vehiculares en PDF
+# Generador de Extractos Vehiculares en PDF
 
 Este proyecto fue desarrollado como parte de una solución para automatizar la generación de extractos financieros basados en placas vehiculares, utilizando información proveniente de una base de datos simulada en Excel. El objetivo es exportar dichos extractos en formato PDF con estructura profesional.
 
-##Tecnologías Utilizadas principales 
+## Tecnologías Utilizadas principales 
 En los requerimientos están todas las librerias usadas en este proyecto, en este caso se usó con un .xls de prueba, pero si se desea usar con una base de datos, es importar la libreria correspondiente y crear un archivo con las credenciales de conexión. 
 
 - Python 
@@ -11,7 +11,7 @@ En los requerimientos están todas las librerias usadas en este proyecto, en est
 - [PyPDF2](https://github.com/py-pdf/PyPDF2) - para combinar múltiples PDFs
 - [numpy](https://numpy.org/) - soporte para cálculos y estructuras de datos
 
-##Estructura del Proyecto
+## Estructura del Proyecto
 
 📁 extractos_vehiculares_pdf 
   ┣ 📄 main.py # Punto de entrada del programa 
@@ -21,7 +21,7 @@ En los requerimientos están todas las librerias usadas en este proyecto, en est
   ┣ 📄 .gitignore # Archivos que no se deben versionar 
 ┗ 📁 DatosPrueba.xlsx # archivo simulado sin datos sensibles > ⚠️ Los archivos originales con datos sensibles han sido retirados por privacidad.
 
-##Funcionalidades
+## Funcionalidades
 
 - Lectura de datos desde archivos Excel.
 - Generación de reportes financieros en PDF.
@@ -29,7 +29,7 @@ En los requerimientos están todas las librerias usadas en este proyecto, en est
 - Inclusión de encabezado y formato personalizado.
 - Unificación de múltiples PDFs en un solo documento final.
 
-##Cómo usar el proyecto
+## Cómo usar el proyecto
 
 1. Clona el repositorio:
  ```bash
@@ -49,7 +49,7 @@ python main.py
 
 ⚠️ Asegúrate de tener tus propios archivos de Excel o base de datos estructurados según el formato esperado.
 
-##Participación en el proyecto
+## Participación en el proyecto
 
 Este desarrollo fue parte de una propuesta técnica para una solución real de negocio. Aunque no fue seleccionado como implementación final, el proyecto quedó funcional como prueba de concepto.
 ##Licencia
