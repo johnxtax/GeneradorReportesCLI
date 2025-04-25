@@ -24,7 +24,8 @@ En los requerimientos están todas las librerias usadas en este proyecto, en est
   ┣ 📄 requirements.txt # Dependencias del proyecto 
   
   ┣ 📄 .gitignore # Archivos que no se deben versionar 
-┗ 📁 DatosPrueba.xlsx # archivo simulado sin datos sensibles > ⚠️ Los archivos originales con datos sensibles han sido retirados por privacidad.
+  
+  ┗ 📁 DatosPrueba.xlsx # archivo simulado sin datos sensibles > ⚠️ Los archivos originales con datos sensibles han sido retirados por privacidad.
 
 ## Funcionalidades
 
