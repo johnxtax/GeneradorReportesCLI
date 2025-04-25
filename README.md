@@ -14,10 +14,15 @@ En los requerimientos están todas las librerias usadas en este proyecto, en est
 ## Estructura del Proyecto
 
 📁 extractos_vehiculares_pdf 
+  
   ┣ 📄 main.py # Punto de entrada del programa 
+  
   ┣ 📄 excel_to_pdf.py # Lógica para convertir Excel a PDF 
+  
   ┣ 📄 pdf_merger.py # Función para combinar PDFs (ventas + deducciones + impuestos) 
+  
   ┣ 📄 requirements.txt # Dependencias del proyecto 
+  
   ┣ 📄 .gitignore # Archivos que no se deben versionar 
 ┗ 📁 DatosPrueba.xlsx # archivo simulado sin datos sensibles > ⚠️ Los archivos originales con datos sensibles han sido retirados por privacidad.
 
